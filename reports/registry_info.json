@@ -1,0 +1,16 @@
+{
+ "models": [
+  {
+   "model": "EMI_Amount_Regressor",
+   "version": 1,
+   "alias": "production",
+   "run_id": "6076b8ae7e2b4bb3b022e4bec810fd46"
+  },
+  {
+   "model": "EMI_Eligibility_Classifier",
+   "version": 1,
+   "alias": "production",
+   "run_id": "bdf73abb49d44071a6372fc86d282839"
+  }
+ ]
+}

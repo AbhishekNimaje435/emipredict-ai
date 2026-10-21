@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+data/emi_records.db
+.venv/
+venv_app/

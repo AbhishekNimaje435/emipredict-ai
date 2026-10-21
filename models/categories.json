@@ -1,0 +1,133 @@
+{
+ "categorical": {
+  "gender": [
+   "Female",
+   "Male"
+  ],
+  "marital_status": [
+   "Married",
+   "Single"
+  ],
+  "education": [
+   "Graduate",
+   "High School",
+   "Post Graduate",
+   "Professional"
+  ],
+  "employment_type": [
+   "Government",
+   "Private",
+   "Self-employed"
+  ],
+  "company_type": [
+   "Large Indian",
+   "MNC",
+   "Mid-size",
+   "Small",
+   "Startup"
+  ],
+  "house_type": [
+   "Family",
+   "Own",
+   "Rented"
+  ],
+  "existing_loans": [
+   "No",
+   "Yes"
+  ],
+  "emi_scenario": [
+   "E-commerce Shopping EMI",
+   "Education EMI",
+   "Home Appliances EMI",
+   "Personal Loan EMI",
+   "Vehicle EMI"
+  ]
+ },
+ "numeric": {
+  "age": {
+   "min": 26.0,
+   "max": 59.0,
+   "median": 38.0
+  },
+  "monthly_salary": {
+   "min": 12000.0,
+   "max": 175900.0,
+   "median": 51700.0
+  },
+  "years_of_employment": {
+   "min": 0.5,
+   "max": 36.0,
+   "median": 3.2
+  },
+  "monthly_rent": {
+   "min": 0.0,
+   "max": 80000.0,
+   "median": 0.0
+  },
+  "family_size": {
+   "min": 1.0,
+   "max": 5.0,
+   "median": 3.0
+  },
+  "dependents": {
+   "min": 0.0,
+   "max": 4.0,
+   "median": 2.0
+  },
+  "school_fees": {
+   "min": 0.0,
+   "max": 15000.0,
+   "median": 3000.0
+  },
+  "college_fees": {
+   "min": 0.0,
+   "max": 25000.0,
+   "median": 0.0
+  },
+  "travel_expenses": {
+   "min": 600.0,
+   "max": 30300.0,
+   "median": 4900.0
+  },
+  "groceries_utilities": {
+   "min": 1800.0,
+   "max": 71200.0,
+   "median": 11400.0
+  },
+  "other_monthly_expenses": {
+   "min": 600.0,
+   "max": 42900.0,
+   "median": 6000.0
+  },
+  "current_emi_amount": {
+   "min": 0.0,
+   "max": 56300.0,
+   "median": 0.0
+  },
+  "credit_score": {
+   "min": 407.0,
+   "max": 850.0,
+   "median": 701.0
+  },
+  "bank_balance": {
+   "min": 19600.0,
+   "max": 845600.0,
+   "median": 195900.0
+  },
+  "emergency_fund": {
+   "min": 6600.0,
+   "max": 384000.0,
+   "median": 74000.0
+  },
+  "requested_amount": {
+   "min": 20000.0,
+   "max": 1430000.0,
+   "median": 236000.0
+  },
+  "requested_tenure": {
+   "min": 3.0,
+   "max": 84.0,
+   "median": 25.0
+  }
+ }
+}
