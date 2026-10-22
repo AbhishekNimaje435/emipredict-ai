@@ -35,17 +35,6 @@ Models were trained on **400,000 financial profiles** (22 input features, 5 EMI 
 |---|---|
 | ![Admin CRUD](screenshots/admin_crud.png) | ![Registry tab in app](screenshots/model_registry_tab.png) |
 
-### MLflow experiment tracking and model registry
-
-| Experiments list | Compare runs |
-|---|---|
-| ![MLflow experiments](screenshots/mlflow_experiments.png) | ![MLflow compare](screenshots/mlflow_compare.png) |
-
-| Run details | Model registry |
-|---|---|
-| ![MLflow run](screenshots/mlflow_run_detail.png) | ![MLflow registry](screenshots/mlflow_registry.png) |
-
----
 
 ## ✨ Features
 
