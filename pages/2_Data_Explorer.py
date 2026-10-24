@@ -3,11 +3,14 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+from theme import apply_theme
+
 from step3_feature_engineering import add_features
 from utils import (LABEL_COLORS, TARGET_CLF, TARGET_REG, inr, label_of, load_categories,
                    load_sample, prepare_inputs, INPUT_COLS)
 
 st.set_page_config(page_title="Data Explorer", page_icon="📊", layout="wide")
+apply_theme()
 st.title("📊 Data Explorer")
 st.caption("Random sample of 20,000 records from the cleaned dataset (for performance).")
 

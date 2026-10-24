@@ -4,9 +4,12 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+from theme import apply_theme
+
 from utils import REPORTS_DIR
 
 st.set_page_config(page_title="Model Performance", page_icon="📈", layout="wide")
+apply_theme()
 st.title("📈 Model Performance & MLflow Tracking")
 
 comp_path = REPORTS_DIR / "model_comparison.csv"

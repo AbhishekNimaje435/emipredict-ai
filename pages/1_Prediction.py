@@ -2,10 +2,13 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
+from theme import apply_theme
+
 from utils import (INPUT_COLS, LABEL_COLORS, NUM_INPUTS, inr, load_artifacts, load_categories,
                    predict, render_inputs)
 
 st.set_page_config(page_title="EMI Prediction", page_icon="🎯", layout="wide")
+apply_theme()
 st.title("🎯 Real-time EMI Assessment")
 
 tab_single, tab_batch = st.tabs(["Single applicant", "Batch (CSV)"])
@@ -36,6 +39,8 @@ with tab_single:
             "Not_Eligible": "❌ Not eligible - loan not recommended.",
         }.get(label, label)
         {"Eligible": st.success, "High_Risk": st.warning}.get(label, st.error)(msg)
+        if label == "Eligible":
+            st.balloons()
 
         m1, m2, m3, m4 = st.columns(4)
         m1.metric("Eligibility", label.replace("_", " "))

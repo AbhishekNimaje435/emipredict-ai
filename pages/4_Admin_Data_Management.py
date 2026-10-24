@@ -4,11 +4,14 @@ import sqlite3
 import pandas as pd
 import streamlit as st
 
+from theme import apply_theme
+
 from step3_feature_engineering import CAT_COLS
 from utils import (DATA_DIR, INPUT_COLS, TARGET_CLF, TARGET_REG, load_categories, load_sample,
                    predict, render_inputs)
 
 st.set_page_config(page_title="Admin - Data Management", page_icon="🛠️", layout="wide")
+apply_theme()
 st.title("🛠️ Financial Records Management (CRUD)")
 
 # ------------------------------------------------------------------ auth
