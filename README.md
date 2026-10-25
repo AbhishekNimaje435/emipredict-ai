@@ -15,27 +15,6 @@ Models were trained on **400,000 financial profiles** (22 input features, 5 EMI 
 
 ---
 
-## 📸 Screenshots
-
-### Streamlit application
-
-| Real-time prediction | Prediction result |
-|---|---|
-| ![Prediction form](screenshots/prediction_form.png) | ![Prediction result](screenshots/prediction_result.png) |
-
-| Data Explorer | Eligibility by EMI scenario |
-|---|---|
-| ![Data Explorer](screenshots/data_explorer.png) | ![Eligibility by scenario](screenshots/eligibility_by_scenario.png) |
-
-| Model Performance | Confusion matrix and feature importance |
-|---|---|
-| ![Model comparison](screenshots/model_performance.png) | ![Confusion matrix](screenshots/confusion_matrix_feature_importance.png) |
-
-| Admin – CRUD | MLflow registry tab |
-|---|---|
-| ![Admin CRUD](screenshots/admin_crud.png) | ![Registry tab in app](screenshots/model_registry_tab.png) |
-
-
 ## ✨ Features
 
 - **Real-time prediction** for a single applicant: eligibility, confidence, class probabilities, maximum safe EMI, requested EMI and headroom, plus a financial health snapshot (debt-to-income, expense-to-income, requested EMI-to-income, disposable income, savings buffer).
